@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(orange,orangered);
+}
+
+#counter{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#count{
+    font-size: 36px;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    transition: all 1s ease;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background: linear-gradient(orangered,lime);
+    color:white;
+}
